@@ -16,13 +16,13 @@ const WhoItsFor = () => {
         </h2>
         
         <div className="mt-10 md:mt-12">
-          <ul className="space-y-5">
+          <ul className="space-y-4">
             {audiences.map((audience, index) => (
               <li
                 key={index}
-                className="flex items-start gap-4 text-lg text-muted-foreground"
+                className="flex items-center gap-3 text-lg text-muted-foreground"
               >
-                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
                 <span>{audience}</span>
               </li>
             ))}
