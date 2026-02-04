@@ -1,10 +1,10 @@
 import { CheckCircle } from "lucide-react";
 
 const audiences = [
-  "Small businesses ready for a professional web presence",
-  "Solo founders who need a site that reflects their work",
-  "Service-based businesses looking for clarity and structure",
-  "People who want a website that just works",
+  "Women-led businesses ready for a polished, professional presence",
+  "Solo founders who want a site that reflects their vision and values",
+  "Coaches, consultants, and creatives seeking clarity and structure",
+  "Entrepreneurs who want a website that works—without the tech stress",
 ];
 
 const WhoItsFor = () => {
